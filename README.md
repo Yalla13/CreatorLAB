@@ -1,0 +1,1 @@
+Project made for video editors. Enables short generation from song(audio file) and video/s / camera footage / music videos (video file) and creative, build froom sctrach effects for video editing.

@@ -1,7 +1,13 @@
-from short_generator.audio_analysis import analyze_audio
 
-bpm, beat_times, duration = analyze_audio("assets/song.wav")
+from converter.avi_to_mp4 import convert_folder
 
-print(bpm)
-print(beat_times[:20])
-print(duration)
+
+def main():
+    convert_folder(
+        input_folder="assets/avi_input/BG_TURBO",
+        output_folder="outputs/converted"
+    )
+
+
+if __name__ == "__main__":
+    main()

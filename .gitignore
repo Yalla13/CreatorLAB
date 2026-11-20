@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 assets/
+assets/avi_input
 outputs/
 .env
 .vscode/
